@@ -1,0 +1,11 @@
+middleNodeIndex = (linkedlist.length/2)+1
+
+currentNode = head
+
+FOR i = 1 TO middleNodeIndex DO
+    currentNode = currentNode.getNextNode
+END FOR
+
+return currentNode
+
+//time complexity O(n), space complexity O(n)
